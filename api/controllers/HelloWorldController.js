@@ -1,6 +1,7 @@
 let todos = [
     { "ID": "1" , "Description": "Take out garbage"},
-    { "ID": "2" , "Description": "Laundry"}
+    { "ID": "2" , "Description": "Laundry"},
+    { "ID": "3", "Description": "Code"}
 ];
 module.exports = {
 
