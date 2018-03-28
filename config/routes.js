@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  '/hello': 'HelloWorldController.helloworld',
+  'POST /sayhello': 'HelloWorldController.sayhello'
 
   /***************************************************************************
   *                                                                          *
