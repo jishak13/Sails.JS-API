@@ -20,10 +20,11 @@ module.exports = {
             'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE',
             'Access-Control-Allow-Headers':'Content-Type'
         });
-     
+
         // req.setHeader('Access-Control-Allow-Origin',"*");
         // req.setHeader('Access-Control-Allow-Methods','GET,PUT,POST,DELETE');
         // req.setHeader('Access-Control-Allow-Headers','Content-Type');
+
         sails.log(req.body);
         let body = req.body;
         let id = body.ID;
