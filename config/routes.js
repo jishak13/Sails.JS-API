@@ -36,7 +36,12 @@ module.exports.routes = {
     view: 'homepage'
   },
   '/hello': 'HelloWorldController.helloworld',
-  'POST /sayhello': 'HelloWorldController.sayhello'
+  // 'POST /sayhello': 'HelloWorldController.sayhello',
+  '/POST /sayhello': {
+       controller: 'HelloWorldController',
+       action: 'sayhello',
+      cors: true
+     }
 
   /***************************************************************************
   *                                                                          *

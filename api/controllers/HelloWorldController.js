@@ -6,20 +6,20 @@ let todos = [
 module.exports = {
 
     helloworld: (req,res) => {
-        res.set({
-            'Access-Control-Allow-Origin':"*",
-            'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE',
-            'Access-Control-Allow-Headers':'Content-Type'
-        });
+        // res.set({
+        //     'Access-Control-Allow-Origin':"*",
+        //     'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE',
+        //     'Access-Control-Allow-Headers':'Content-Type'
+        // });
         res.send(todos);
     },
 
     sayhello: (req,res) => {
-        res.set({
-            'Access-Control-Allow-Origin':"*",
-            'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE',
-            'Access-Control-Allow-Headers':'Content-Type'
-        });
+        // res.set({
+        //     'Access-Control-Allow-Origin':"*",
+        //     'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE',
+        //     'Access-Control-Allow-Headers':'Content-Type'
+        // });
 
         // req.setHeader('Access-Control-Allow-Origin',"*");
         // req.setHeader('Access-Control-Allow-Methods','GET,PUT,POST,DELETE');
